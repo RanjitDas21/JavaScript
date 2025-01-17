@@ -1,4 +1,5 @@
-// Array :- Collection of item
+// Array :- Collection of item.
+
 let heroes = ["ironman","hulk","thor","spyderman"];
 let marks = [85,70,90,93,89,95];
 let info = ["rahul",86,"Delhi"];
