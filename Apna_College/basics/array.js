@@ -51,6 +51,7 @@ console.log(age);
 let marvelHeroes = ["thor","spiderman","ironman","Dr. Strange"];
 marvelHeroes.unshift("antman");
 console.log(marvelHeroes);
+
 // 6. shift() -> delete from start and return
 let val = marvelHeroes.shift();
 console.log("deleted value is",val);
@@ -78,3 +79,11 @@ console.log(arr);
 let newArr = arr.splice(4); //-> delete all element from idx 4 and return a array with deleted item.
 console.log(newArr);
 console.log(arr); // change the original array
+
+// Array Spread
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+
+console.log(all_new_heros);
